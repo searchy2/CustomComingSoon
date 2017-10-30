@@ -658,7 +658,7 @@ subscribe
         padding: 8px;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
-        border-bottom-left-radius:0;
+        border-bottom-left-radius:20px;
         border-bottom-right-radius:20px;
         position:relative;
         cursor:pointer;
@@ -675,7 +675,7 @@ subscribe
         top: 0;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
-        border-bottom-left-radius:0;
+        border-bottom-left-radius:20px;
         border-bottom-right-radius:20px;
         height: 100%;
         transition:300ms;

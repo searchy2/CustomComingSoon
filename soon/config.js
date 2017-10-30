@@ -7,7 +7,7 @@ var background ={
        //  CHOOSE ON OF THIS OPTION      
        // OPTION : 'gradient' , 'image' , 'slideShow' 
 
-       type   : 'gradient',
+       type   : 'image',
 
 
 
@@ -15,29 +15,10 @@ var background ={
       
        gradient  : 'bg-color-one',
 
-
-       slideShow : { 
-
-             slides :
-
-                    [
-                      { src: 'https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?w=940&h=650&auto=compress&cs=tinysrgb' },
-                      { src: 'https://images.pexels.com/photos/147504/pexels-photo-147504.jpeg?w=940&h=650&auto=compress&cs=tinysrgb' },
-                      { src: 'https://images.pexels.com/photos/196666/pexels-photo-196666.jpeg?w=940&h=650&auto=compress&cs=tinysrgb' },
-                      { src: 'https://images.pexels.com/photos/196464/pexels-photo-196464.jpeg?w=940&h=650&auto=compress&cs=tinysrgb' },
-                      { src: 'https://images.pexels.com/photos/71104/utah-mountain-biking-bike-biking-71104.jpeg?w=940&h=650&auto=compress&cs=tinysrgb' },
-                      { src: 'https://images.pexels.com/photos/69731/pexels-photo-69731.jpeg?w=940&h=650&auto=compress&cs=tinysrgb' }
-
-                    ],
-
-                    overlay:'assets/css/overlays/06.png'
-
-                 },
-
        image : {
            
            // choose image for background
-          image_url : ""
+          image_url : "assets/img/bg_gradient.png"
 
         },
        
@@ -58,24 +39,24 @@ var counter = {
 
         // "counter-one", "counter-two","counter-three","counter-four"
 
-		style : 'counter-four',
+		style : 'counter-three',
 
     launchDate : {
 
 
           // OPTIONS:"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
           
-          Month: 'January',
+          Month: 'November',
 
 
           //  DAY : INTEGER[ 1 - 31 ]
 
-          Day: 17,
+          Day: 6,
 
 
            // YEAR : INTEGER
 
-          Year: 2020
+          Year: 2017
     }
 		
 	};
