@@ -18,7 +18,7 @@ var background ={
        image : {
            
            // choose image for background
-          image_url : "assets/img/bg_gradient.png"
+          image_url : "assets/img/background.jpg"
 
         },
        
