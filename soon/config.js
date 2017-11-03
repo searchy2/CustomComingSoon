@@ -7,7 +7,7 @@ var background ={
        //  CHOOSE ON OF THIS OPTION      
        // OPTION : 'gradient' , 'image' , 'slideShow' 
 
-       type   : 'gradient',
+       type   : 'image',
 
 
 
@@ -37,12 +37,12 @@ var background ={
        image : {
            
            // choose image for background
-          image_url : ""
+          image_url : "assets/img/Group%20Selfie%20Pic.jpg"
 
         },
        
        //Option : ture ,false "activate or deactivate particle"
-       particle : true
+       particle : false
 
       } ;
 
@@ -65,17 +65,17 @@ var counter = {
 
           // OPTIONS:"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
           
-          Month: 'January',
+          Month: 'August',
 
 
           //  DAY : INTEGER[ 1 - 31 ]
 
-          Day: 17,
+          Day: 20,
 
 
            // YEAR : INTEGER
 
-          Year: 2020
+          Year: 2017
     }
 		
 	};
@@ -92,7 +92,6 @@ $("#subscribe_form").ajaxChimp({
     url: "//novisdev.us15.list-manage.com/subscribe/post?u=202b79afea96f1d57561896f5&amp;id=02ba748be1"    
  
   });
-
 
 
 
