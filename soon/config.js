@@ -46,12 +46,12 @@ var counter = {
 
           // OPTIONS:"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
           
-          Month: 'November',
+          Month: 'December',
 
 
           //  DAY : INTEGER[ 1 - 31 ]
 
-          Day: 6,
+          Day: 1,
 
 
            // YEAR : INTEGER
